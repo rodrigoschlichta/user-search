@@ -13,7 +13,7 @@ const Home = () => (
                 Bem-vindos ao desafio do capítulo 3 do Bootcamp DevSuperior.<br/>
                 <br/>Favor observar as instruções passadas no capítulo sobre a elaboração deste projeto.<br/><br/>
                 Este design foi adaptado a partir de Ant Design System for Figma,<br/>
-                de Mateusz Wierzbicki: <a href="http://gmail.com">antforfigma@gmail.com</a><br/><br/>
+                de Mateusz Wierzbicki: <a href="http://gmail.com"> antforfigma@gmail.com</a><br/><br/>
                 </p>
             </div>
     
