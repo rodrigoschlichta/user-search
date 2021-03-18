@@ -4,22 +4,20 @@
     height: 45px;
     top: 595px;
     background: #1890FF;
-    align-items: center;
-}
-
-.btn-text {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
     margin-top: 48px;
     margin-bottom: 265px;
     margin-right: 1219px;
     margin-left: 4px;
     border-radius: 6px;
+}
+
+.btn-text {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    padding-bottom: 20px;
 }

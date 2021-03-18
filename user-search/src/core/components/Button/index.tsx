@@ -7,7 +7,7 @@ type Props ={
 
 const Button = ( {text} :Props) => (
    <div className="d-flex">
-       <button className=" btn btn-start btn-text">
+       <button className="btn-start btn-text">
           <h4>{text}</h4>  
        </button>
    </div>
