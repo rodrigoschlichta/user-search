@@ -6,8 +6,8 @@ import './styles.scss';
 
 const Home = () => (
     <div className="home-container">
-        <div className="row home-content">
-            <div className="col-6 home-text">
+        <div className="home-content">
+            <div className="home-text">
                 <h1 className="text-title">Desafio do Capítulo 3,<br/> Bootcamp DevSuperior</h1>
                 <p className="text-subtitle">
                 Bem-vindos ao desafio do capítulo 3 do Bootcamp DevSuperior.<br/>
@@ -18,9 +18,9 @@ const Home = () => (
             </div>
     
         </div>
-        <div>
+        <div className="btn-home">
                 <Link to="/search">
-                    <Button text= "Começar" />    
+                 <Button text= "Começar" />   
                 </Link>   
         </div>
     </div>

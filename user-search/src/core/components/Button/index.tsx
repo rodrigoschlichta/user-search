@@ -6,7 +6,7 @@ type Props ={
 }
 
 const Button = ( {text} :Props) => (
-   <div className="d-flex">
+   <div>
        <button className="btn-start btn-text">
           <h4>{text}</h4>  
        </button>

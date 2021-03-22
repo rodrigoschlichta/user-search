@@ -1,23 +1,25 @@
 .btn-start {
-    position: absolute;
-    width: 120px;
+    width: 140px;
     height: 45px;
-    top: 595px;
     background: #1890FF;
-    margin-top: 48px;
-    margin-bottom: 265px;
-    margin-right: 1219px;
-    margin-left: 4px;
-    border-radius: 6px;
+    border-radius: 4px;
+    margin-top: 24px;
+    margin-left: 100px;
+    padding: 8px 8px 8px 8px;
 }
 
 .btn-text {
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
     display: flex;
-    justify-content: center;
     align-items: center;
-    color: #FFF;
-    padding-bottom: 20px;
+    justify-items: center;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-bottom: 26px;
+    text-decoration: none;
+    cursor: pointer;
 }
