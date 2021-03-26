@@ -5,13 +5,10 @@
     border-radius: 4px;
     margin-top: 24px;
     margin-left: 100px;
-    padding: 8px 8px 8px 8px;
 }
 
 .btn-text {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     color: #fff;
     display: flex;
@@ -20,6 +17,5 @@
     padding-top: 0px;
     padding-left: 30px;
     padding-bottom: 26px;
-    text-decoration: none;
-    cursor: pointer;
+    text-decoration: normal;
 }

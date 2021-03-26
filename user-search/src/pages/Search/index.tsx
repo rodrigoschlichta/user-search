@@ -9,18 +9,22 @@ const Search = () => {
         <div className="search-conntainer">
             <div className="search-content">
                 <h3 className="search-title">Encontre um perfil GitHub</h3>
-                <div>
                     <form action="/" method="post">
-                        <input type="text" id="search" className="search-text" />
-                        <Link to="/result">
-                            <Button text= "Encontrar" />    
-                        </Link> 
+                        <div className="search-form">
+                        <input type="text" id="search" placeholder="Usuário Github" className="search-text"/>
+                        </div>
                     </form>
-                </div>
+                    <Link to="/result">
+                            <Button text= "Encontrar" />    
+                    </Link>           
+            </div>
 
-            </div>  
-
+                <div className="result-data">
+                    <h1>Dados</h1>
+                </div>  
         </div>
+
+
     );
 }
 
