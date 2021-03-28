@@ -20,8 +20,18 @@ const Search = () => {
             </div>
 
                 <div className="result-data">
-                    <h1>Dados</h1>
-                </div>  
+                    <div className="result-image">
+                    </div>
+                    <div className="result-btn">
+                        <Link to="/result">
+                            <Button text= "Encontrar"/>
+                        </Link>
+                    </div>
+                </div> 
+                <div className="result-user-data">
+
+                </div> 
+            
         </div>
 
 
